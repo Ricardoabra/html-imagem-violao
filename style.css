@@ -1,0 +1,148 @@
+
+body{
+background-color: white;
+font-family: 'Knewave', cursive;
+
+
+}
+
+nav{
+
+background-image: linear-gradient(to right,#39415a ,#1F273B);
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+border-radius: 5px;
+margin-bottom: 50px;
+
+}
+
+#titulo{
+    display: flex;
+    font-family: 'Knewave', cursive;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #060f24;
+    text-shadow:5px 4px gray;
+
+
+}
+
+#container1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    background-color: #1F273B;
+    height: 100px;
+    color: white;
+    border-radius: 15px;
+    text-align: end;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+#esquerda{
+    background-color: #b2845e;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 12px 6px 6px gray;
+
+}
+
+li{
+ display: flex; 
+ color: white;
+ flex-direction: row;
+ 
+ 
+}
+
+#container2{
+    display: flex;
+    margin: auto;
+    width: auto;
+    height: 500px;
+   
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    
+}
+
+.embaixo{
+    display: flex;
+    width: 200px;
+    height: 350px;
+    background-image: linear-gradient(to right, lightgray, rgb(167, 173, 190) );
+    border-radius: 8px;
+    box-shadow: 12px 6px 6px gray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    color: #1F273B;
+   
+
+}
+ h2{
+    display: flex;
+    font-family: 'Knewave', cursive;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center; 
+    color: #1F273B;
+ }
+ #seção2{
+    border-top: solid 2px gray;
+
+ }
+
+ li{
+    float: left;
+    display: flex;
+    justify-content: center ;
+    padding: 10px;
+    background-color: #B2845E;
+    border-radius: 5px;
+    align-items: center;
+    margin-right: 20px;
+    
+
+ }
+ #aprenda{
+    margin-left: 60px;
+ }
+
+ .button {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(252, 64, 64);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);}
